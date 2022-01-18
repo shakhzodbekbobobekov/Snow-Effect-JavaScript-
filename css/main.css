@@ -13,11 +13,11 @@ body {
     color: #fff;
     position: absolute;
     top: -20px;
-    animation: fall 2s forwards;
+    animation: fall 4s linear forwards;
 }
 
 @keyframes fall {
     to {
-        transform: translateY(120vh);
+        transform: translateY(105vh);
     }
 }
